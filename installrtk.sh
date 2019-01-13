@@ -1,7 +1,7 @@
 #!/bin/sh
 arch=$(arch)
 RTKDL='http://drdanick.com/downloads/dl.php?id=remotetoolkit&ver=latest'
-SBDL='http://dev.drdanick.com/repo/content/repositories/sb-snapshots/me/neatmonster/spacebukkit/1.2-SNAPSHOT/spacebukkit-1.2-20130725.112530-131.jar'
+SBDL='http://apricot.drdanick.com/jenkins/job/SpaceBukkit/lastSuccessfulBuild/artifact/target/spacebukkit-1.2-SNAPSHOT.jar'
 REPLACEURL="https://github.com/csong95/SpaceScripts/blob/master/bin/replace_$arch"
 
 clear
